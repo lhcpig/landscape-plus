@@ -19,7 +19,13 @@
           </p>
         <% } %>
       <% } else { %>
-        <%- post.content %>
+	    <% if(post.toc !== false && toc(post.content)){ %>
+          <div id="toc" class="toc-article">
+            <strong class="toc-title"><%= __('contents') %></strong>
+            <%- toc(post.content) %>
+          </div>
+		<% } %>
+		<%- post.content %>
       <% } %>
     </div>
     <footer class="article-footer">
