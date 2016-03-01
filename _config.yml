@@ -21,8 +21,10 @@ widgets:
 
 # Links
 links:
-  gitcafe: https://gitcafe.com/lhcpig/lhcpig/tree/gitcafe-pages
-  github: https://github.com/lhcpig/lhcpig.github.io
+  segmentfault: https://segmentfault.com/u/lhcpig
+  github: https://github.com/lhcpig
+  gitcafe: https://gitcafe.com/lhcpig
+  
 
 # Miscellaneous
 google_analytics:
